@@ -15,3 +15,8 @@ public class IdGenerator {
         return id.incrementAndGet();
     }
 }
+//单例模式主要考虑点：
+//1.是否支持延迟加载
+//2.构造函数位private
+//3.线程安全
+//4.性能
