@@ -13,6 +13,5 @@ public class IdGenerator_DoubleCheck {
         }
         return instance;
     }
-
 }
 //双重检查，没有用volatile，因为高版本的java已经将new变成原子操作
